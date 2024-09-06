@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-name{
+    height: 43px;
+    width: 250px;
+    background-color:rgb(6, 118, 133);
+    margin-top: 40px;
+    border-radius: 7px; 
+}
+
+.company-name h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: lightgoldenrodyellow;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.para{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+}
+.underline{
+    border: 2px solid rgb(6, 118, 133);
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+
+.meet h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.leader{
+    height: 30px;
+    width: 250px;
+    background-color: rgb(6, 118, 133);
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+     
+}
+
+.leader h2{
+    font-size: 18px;
+    text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: lightgoldenrodyellow;
+     padding-top: 5px;
+}
+.ceo{
+   
+     display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    flex-wrap: wrap; 
+    width: 400px;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+}
+img{
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+     
+}
+.box p{
+    text-align: center;
+}
+.VP{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 600px;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+}
+.developer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 900px;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.box p:nth-child(3){
+    color: rgb(6, 118, 133);
+}
+.box p:nth-child(4){
+    color: rgb(6, 118, 133);
+}
+ 
+@media only screen and (max-width: 872px){
+    .ceo{
+        flex-direction: column;
+    }
+    img{
+        height: 250px;
+        width: 250px;
+    }
+    .VP{
+        flex-direction: column;
+        width: 400px;
+    }
+    .developer{
+        flex-direction: column;
+        width: 400px;
+    }
+    .box{
+        margin-top: 30px;
+    }
+
+}
